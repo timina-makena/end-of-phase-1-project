@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Unbounded:wght@200..900&display=swap');
+
+body {
+    font-family: "Unbounded", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+}
+header {
+    background-color: #F6DC43;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+nav a{
+    color: #18230F;
+    font-family: "Agu Display", serif;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+    padding: 6px 8px;
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: x-large
+}
+
+nav a:hover{
+    size: -10;
+    text-decoration: underline;
+    color: #FF4646;
+}
+
+.background{
+    width: 600px;
+    height: 600px;
+    
+}
+  
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+h1{
+    font-style: var(--header-font);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    color: #18230F;
+}
+
+.veggies{
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.first {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.first div {
+    text-align: center;
+    margin: 10px; 
+}
+
+.first img {
+    width: 200px; 
+    height: auto; 
+}
+
+.second {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.second div {
+    text-align: center; 
+    margin: 10px; 
+}
+
+.second img {
+    width: 200px; 
+    height: auto; 
+}
+
+.third {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.third div {
+    text-align: center; 
+    margin: 10px; 
+}
+
+.third img {
+    width: 200px; 
+    height: auto; 
+}
