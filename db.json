@@ -4,7 +4,6 @@
       "id": 1,
       "name": "Garden Salad",
       "category": "veggies",
-      "price": 400,
       "description": "Fresh mixed vegetable salad",
       "image": "Images/imageone.png"
     },
@@ -12,7 +11,6 @@
       "id": 2,
       "name": "Cremella Salad",
       "category": "veggies",
-      "price": 300,
       "description": "Creamy vegetable salad mix",
       "image": "Images/imagetwo.png"
     },
@@ -20,7 +18,6 @@
       "id": 3,
       "name": "Pasta Salad",
       "category": "veggies",
-      "price": 500,
       "description": "Delicious pasta vegetable salad",
       "image": "Images/imagethree.png"
     }
@@ -30,7 +27,6 @@
       "id": 4,
       "name": "Strawberry Punch",
       "category": "drinks",
-      "price": 450,
       "description": "Refreshing strawberry drink",
       "image": "Images/drinktwo.png"
     },
@@ -38,7 +34,6 @@
       "id": 5,
       "name": "Avocado Mint",
       "category": "drinks",
-      "price": 350,
       "description": "Cool avocado and mint blend",
       "image": "Images/drinkfour.png"
     },
@@ -46,7 +41,6 @@
       "id": 6,
       "name": "Orange Fusion",
       "category": "drinks",
-      "price": 400,
       "description": "Tangy orange fusion drink",
       "image": "Images/drinkthee.png"
     }
@@ -56,7 +50,6 @@
       "id": 7,
       "name": "Apple Grape",
       "category": "fruits",
-      "price": 450,
       "description": "Mixed apple and grape blend",
       "image": "Images/fruitsone.png"
     },
@@ -64,7 +57,6 @@
       "id": 8,
       "name": "Watermelon Bliss",
       "category": "fruits",
-      "price": 350,
       "description": "Pure watermelon delight",
       "image": "Images/fruitsfive.png"
     },
@@ -72,7 +64,6 @@
       "id": 9,
       "name": "Kiwi Berries",
       "category": "fruits",
-      "price": 400,
       "description": "Fresh kiwi and mixed berries",
       "image": "Images/fruitsfour.png"
     }
