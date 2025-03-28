@@ -89,6 +89,7 @@ h1{
 .first img {
     width: 200px; 
     height: auto; 
+    border-radius: 50%;
 }
 
 .second {
@@ -105,6 +106,7 @@ h1{
 .second img {
     width: 200px; 
     height: auto; 
+    border-radius: 50%;
 }
 
 .third {
@@ -121,6 +123,7 @@ h1{
 .third img {
     width: 200px; 
     height: 300px; 
+    border-radius: 50%;
 }
 
 .mbili{
