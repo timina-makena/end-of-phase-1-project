@@ -7,7 +7,7 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #D2FF72;
     text-align: center;
 }
 header {
@@ -120,5 +120,30 @@ h1{
 
 .third img {
     width: 200px; 
-    height: auto; 
+    height: 300px; 
+}
+
+.mbili{
+    width: 200px;
+    height: 200px;
+}
+
+.comm{
+    background-color: #809D3C;
+}
+
+.contactdetails{
+    background-color: #798645;
+}
+
+.copyright{
+    background-color: #FF4646;
+}
+
+.about{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: xx-large;
 }
