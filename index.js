@@ -1,3 +1,4 @@
+const BASE_URL = "https://phase-1-final-project-wheat.vercel.app/veggies";
 
 function fetchAndDisplayItems() {
     fetch("http://localhost:3000/items")
