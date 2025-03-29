@@ -13,22 +13,28 @@ async function fetchData(category) {
 }
 
 
-function displayData(category, items) {
-    const container = document.querySelector(`#${category} .container`);
-    container.innerHTML = ''; 
-    items.forEach(item => {
-        const itemDiv = document.createElement('div');
-        itemDiv.classList.add('product');
-        itemDiv.innerHTML = `
-            <img src="${item.image}" alt="${item.name}" />
-            <p>${item.name}</p>
-            <p>Price: $${item.price}</p>
-            <button class="edit-btn" data-id="${item.id}" data-category="${category}">Edit</button>
-            <button class="delete-btn" data-id="${item.id}" data-category="${category}">Delete</button>
-        `;
-        container.appendChild(itemDiv);
-    });
-}
+document.getElementById('add-item-form').addEventListener('submit', (event) => {
+    event.preventDefault(); 
+
+    const category = document.getElementById('category').value;
+    const name = document.getElementById('name').value;
+    const price = parseFloat(document.getElementById('price').value);
+    const description = document.getElementById('description').value;
+    const image = document.getElementById('image').value;
+
+    if (category && name && price && description && image) {
+        addItem(category, { name, price, description, image });
+        document.getElementById('add-item-form').reset(); 
+        alert('Item added successfully!');
+    } else {
+        alert('Please fill in all fields!');
+    }
+});
+
+
+document.getElementById('clear-btn').addEventListener('click', () => {
+    document.getElementById('add-item-form').reset(); 
+});
 
 
 async function addItem(category, newItem) {
