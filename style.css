@@ -141,6 +141,10 @@ h1{
 
 .copyright{
     background-color: #FF4646 ;
+    font-family: "Agu Display", serif;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .about{
