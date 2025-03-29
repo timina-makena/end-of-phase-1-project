@@ -73,6 +73,15 @@ h1{
     overflow-x: auto;
     padding: 20px;
     flex-direction: column;
+    text-decoration:underline;
+}
+
+.fruits{
+    text-decoration: underline;
+}
+
+.drinks{
+    text-decoration: underline;
 }
 
 .first {
