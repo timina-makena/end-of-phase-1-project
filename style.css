@@ -74,14 +74,17 @@ h1{
     padding: 20px;
     flex-direction: column;
     text-decoration:underline;
+    color: #18230F;
 }
 
 .fruits{
     text-decoration: underline;
+    color: #18230F;
 }
 
 .drinks{
     text-decoration: underline;
+    color: #18230F;
 }
 
 .first {
