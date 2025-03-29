@@ -32,7 +32,7 @@ nav a{
 nav a:hover{
     size: -10;
     text-decoration: underline;
-    color: #FF4646;
+    color: ;
 }
 
 .background{
@@ -140,8 +140,7 @@ h1{
 }
 
 .copyright{
-    background-color: #F6DC43 ;
-    color: F6DC43
+    background-color: #FF4646 ;
 }
 
 .about{
@@ -150,5 +149,4 @@ h1{
     font-weight: weight;
     font-style: normal;
     font-size: xx-large;
-    color: #18230F;
 }
