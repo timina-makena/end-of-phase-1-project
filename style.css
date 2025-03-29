@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 header {
-    background-color: #F6DC43;
+    background-color: #FF4646;
     color: white;
     padding: 15px;
     font-size: 24px;
@@ -140,7 +140,8 @@ h1{
 }
 
 .copyright{
-    background-color: #FF4646;
+    background-color: #F6DC43 ;
+    color: F6DC43
 }
 
 .about{
