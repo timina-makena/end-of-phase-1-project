@@ -1,4 +1,5 @@
-const BASE_URL = "https://phase-1-final-project-wheat.vercel.app/veggies";
+const BASE_URL = "https://phase-1-final-project-wheat.vercel.app/veggies"; 
+"https://phase-1-final-project-wheat.vercel.app/drinks", "https://phase-1-final-project-wheat.vercel.app/fruits",
 
 function fetchAndDisplayItems() {
     fetch("http://localhost:3000/items")
