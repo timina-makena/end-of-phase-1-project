@@ -152,7 +152,8 @@ h1{
 }
 
 .copyright{
-    background-color: #FF4646 ;
+    background-color: #18230F ;
+    color: #D2FF72;
     font-family: "Agu Display", serif;
     font-size: x-large;
     font-weight: 400;
@@ -172,7 +173,7 @@ h1{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: #FF4646;
     width: 300px;
 }
 
@@ -184,7 +185,7 @@ h1{
 }
 
 #add-item-form label {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -193,7 +194,7 @@ h1{
 #add-item-form textarea,
 #add-item-form button {
     padding: 10px;
-    font-size: 1rem;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
@@ -202,13 +203,13 @@ h1{
 
 #add-item-form button {
     cursor: pointer;
-    background-color: #18230F; 
-    color: white;
+    background-color: #FFB433; 
+    color: black;
     border: none;
 }
 
 #add-item-form button#clear-btn {
-    background-color: #18230F; 
+    background-color: #FFB433; 
 }
 
 #add-item-form button:hover {
