@@ -152,8 +152,8 @@ h1{
 }
 
 .copyright{
-    background-color: #18230F ;
-    color: #D2FF72;
+    background-color: #FF4646 ;
+    color: #18230F;
     font-family: "Agu Display", serif;
     font-size: x-large;
     font-weight: 400;
@@ -171,9 +171,10 @@ h1{
 .cart {
     margin: 20px auto;
     padding: 20px;
+    color: #FF4646;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: #FF4646;
+    background-color: #18230F;
     width: 300px;
 }
 
@@ -187,6 +188,7 @@ h1{
 #add-item-form label {
     font-size: 16px;
     font-weight: bold;
+    color: white;
 }
 
 #add-item-form input,
@@ -203,13 +205,13 @@ h1{
 
 #add-item-form button {
     cursor: pointer;
-    background-color: #FFB433; 
+    background-color: #798645; 
     color: black;
     border: none;
 }
 
 #add-item-form button#clear-btn {
-    background-color: #FFB433; 
+    background-color: #798645; 
 }
 
 #add-item-form button:hover {
