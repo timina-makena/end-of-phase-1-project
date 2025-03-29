@@ -202,13 +202,13 @@ h1{
 
 #add-item-form button {
     cursor: pointer;
-    background-color: #28a745; 
+    background-color: #18230F; 
     color: white;
     border: none;
 }
 
 #add-item-form button#clear-btn {
-    background-color: #dc3545; 
+    background-color: #18230F; 
 }
 
 #add-item-form button:hover {
