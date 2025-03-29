@@ -4,6 +4,7 @@
       "id": 1,
       "name": "Garden Salad",
       "category": "veggies",
+      "price": 350,
       "description": "Fresh mixed vegetable salad",
       "image": "Images/imageone.png"
     },
@@ -11,6 +12,7 @@
       "id": 2,
       "name": "Cremella Salad",
       "category": "veggies",
+      "price": "400",
       "description": "Creamy vegetable salad mix",
       "image": "Images/imagetwo.png"
     },

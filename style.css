@@ -166,3 +166,51 @@ h1{
     font-style: normal;
     font-size: xx-large;
 }
+
+#add-item-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+}
+
+#add-item-form {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 15px; 
+}
+
+#add-item-form label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#add-item-form input,
+#add-item-form select,
+#add-item-form textarea,
+#add-item-form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#add-item-form button {
+    cursor: pointer;
+    background-color: #28a745; 
+    color: white;
+    border: none;
+}
+
+#add-item-form button#clear-btn {
+    background-color: #dc3545; 
+}
+
+#add-item-form button:hover {
+    opacity: 0.9;
+}
